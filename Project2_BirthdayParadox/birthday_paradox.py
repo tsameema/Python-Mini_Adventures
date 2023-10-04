@@ -87,8 +87,11 @@ if __name__ == "__main__":
   year = datetime.date(required_year, 1, 1)
   birthdate = BirthdayParadox(total_birthday, year)
   prob = birthdate.calculate_probs()
-  print(prob)
-  print(f'Probability = {(prob/100_000)*100}')
+  print('Out of 100,000 simulations of', total_birthday, 'people, there was a')
+  print('matching birthday in that group', prob, 'times. This means')
+  print('that', total_birthday, 'people have a', round((prob/100_000)*100, 2), '% chance of')
+  print('having a matching birthday in their group.')
+  print('That\'s probably more than you would think!')
 
 
 
