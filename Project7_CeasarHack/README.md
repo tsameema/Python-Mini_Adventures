@@ -4,10 +4,6 @@ with the Caesar cipher from Project 6, even
 if you don’t know the key. There are only 26
 possible keys for the Caesar cipher, so a computer can easily try all possible decryptions and display the results to the user. In cryptography, we call this technique a brute-force attack. This program helps users find the original message by trying all possible shift keys.
 
-
-## Usage
-The Caesar Cipher Hacker program provides a command-line interface for decrypting Caesar cipher messages. Follow the on-screen prompts to decrypt a message.
-
 ## Methods
 The CaesarHack class defines several methods to facilitate the decryption process:
 
