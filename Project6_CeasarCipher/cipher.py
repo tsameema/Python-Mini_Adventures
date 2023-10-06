@@ -107,9 +107,7 @@ class CaesarCipher():
     print('\nYOUR MESSAGE IN CAESAR CIPHER:')
     print(crypt_message)
 
-if __name__ == '__main__':
-  cipher = CaesarCipher()
-  cipher.generate_cipher()
+
 
 
     
