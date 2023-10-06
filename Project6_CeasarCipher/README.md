@@ -23,39 +23,45 @@ To use the CaesarCipher class, follow these steps:
 ### generate_alphabets()
 Generate a list of uppercase ASCII letters from 'A' to 'Z'.
 
-Parameters : None
+**Parameters :** None
 
-Returns : list: A list containing uppercase alphabets.
+**Returns :** list: A list containing uppercase alphabets.
 ### choice_to_encrypt_decrypt_msg()
 Prompt the user to choose whether they want to encrypt or decrypt a message.
 
-Parameters : None
+**Parameters :** None
 
-Returns : str: 'e' for encryption, 'd' for decryption.
+**Returns :** str: 'e' for encryption, 'd' for decryption.
 ### shift_keys(maxletters)
 Prompt the user to enter a shift key for the Caesar Cipher.
 
-Parameters : maxletters (int) :: The maximum number of letters in the alphabet (e.g., 26 for the English alphabet).
-Returns : int :: The user-provided shift key.
+**Parameters :** maxletters (int) :: The maximum number of letters in the alphabet (e.g., 26 for the English alphabet).
+
+**Returns :** int :: The user-provided shift key.
 ### get_message(is_de_encrypt)
 Prompt the user to enter a message for encryption or decryption.
 
-Parameters : is_de_encrypt (str) :: 'e' for encryption, 'd' for decryption.
-Returns : str :: The user-provided message.
+**Parameters :** is_de_encrypt (str) :: 'e' for encryption, 'd' for decryption.
+
+**Returns :** str :: The user-provided message.
 ### encrypt_decrypt_message(is_de_encrypt, message, ascii_letter, key)
 Encrypt or decrypt a message using the Caesar Cipher algorithm.
 
-Parameters : is_de_encrypt (str) :: 'e' for encryption, 'd' for decryption.
-             message (str) :: The message to be encrypted or decrypted.
-             ascii_letter (list) :: A list of uppercase ASCII letters.
-             key (int) :: The encryption or decryption key.
-Returns : str :: The encrypted or decrypted message.
+**Parameters :** is_de_encrypt (str) :: 'e' for encryption, 'd' for decryption.
+
+message (str) :: The message to be encrypted or decrypted.
+           
+ascii_letter (list) :: A list of uppercase ASCII letters.
+             
+key (int) :: The encryption or decryption key.
+
+**Returns :** str :: The encrypted or decrypted message.
 ### generate_cipher()
 Generate a Caesar Cipher for a user-provided message.
 
-Parameters : None
+**Parameters :** None
 
-Returns : None
+**Returns :** None
 
 ## Example
 Here's an example of how to use the CaesarCipher class:
