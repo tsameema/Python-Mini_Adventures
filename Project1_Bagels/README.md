@@ -1,6 +1,14 @@
 # Deductive Logic Game
 ## Overview
-This Python program is a simple text-based game that challenges the player to guess a 3-digit number chosen by the computer. The player is given a limited number of attempts and receives hints to guide their guesses.
+In Bagels, a deductive logic game, you
+must guess a secret three-digit number
+based on clues. The game offers one of
+the following hints in response to your guess:
+“Pico” when your guess has a correct digit in the
+wrong place, “Fermi” when your guess has a correct
+digit in the correct place, and “Bagels” if your guess
+has no correct digits. You have 10 tries to guess the
+secret number. 
 
 ## How to Play
 1. Run the program by executing the code in a Python environment.
