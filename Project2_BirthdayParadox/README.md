@@ -10,8 +10,7 @@ in a group as small as 23 people, there’s a 50 percent
 chance of a matching birthday. This program performs several probability experiments to determine
 the percentages for groups of different sizes. We call these types of experiments, in which we conduct multiple random trials to understand the
 likely outcomes, Monte Carlo experiments.
-You can find out more about the Birthday Paradox at https://en.wikipedia
-.org/wiki/Birthday_problem.
+You can find out more about the Birthday Paradox at this [website](https://en.wikipedia.org/wiki/Birthday_problem.).
 
 ## Introduction
 The Birthday Paradox is a phenomenon where it is more likely than you might expect that two or more people in a group will share the same birthday. This script helps you understand and visualize this probability by running simulations.
