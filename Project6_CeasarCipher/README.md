@@ -69,6 +69,38 @@ Here's an example of how to use the CaesarCipher class:
         from cipher import CaesarCipher
         cipher = CaesarCipher()
         cipher.generate_cipher()
+1. ENCRYPTED MESSAGE
+
+**Do you want to (e)ncrypt or (d)ecrypt?**
+
+> e
+
+**Please enter the key (0 to 25) to use.**
+
+> 4
+
+**Enter the message to encrypt.**
+
+> Meet me by the rose bushes tonight.
+
+encrypted msg : QIIX QI FC XLI VSWI FYWLIW XSRMKLX.
+
+2. DECRYPTED MESSAGE
+   
+**Do you want to (e)ncrypt or (d)ecrypt?**
+
+> d
+
+**Please enter the key (0 to 25) to use.**
+
+> 4
+
+**Enter the message to decrypt.**
+
+> QIIX QI FC XLI VSWI FYWLIW XSRMKLX.
+
+decrypted msg : MEET ME BY THE ROSE BUSHES TONIGHT.
+
 Follow the prompts to choose encryption or decryption, provide a shift key, and enter the message. The class will then display the encrypted or decrypted message in the Caesar Cipher.
 
 Feel free to use and modify this CaesarCipher class in your Python projects for basic encryption and decryption tasks.
