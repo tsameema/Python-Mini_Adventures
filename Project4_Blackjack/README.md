@@ -1,5 +1,13 @@
 # Blackjack Game
-This is a Python implementation of the classic card game Blackjack. In this game, the player's goal is to reach a hand value as close to 21 as possible without exceeding it. The game is played against a computer dealer.
+This is a Python implementation of the classic card game Blackjack. 
+Blackjack, also known as 21, is a card game
+where players try to get as close to 21 points
+as possible without going over. This program
+uses images drawn with text characters, called
+ASCII art. American Standard Code for Information
+Interchange (ASCII) is a mapping of text characters
+to numeric codes that computers used before Unicode
+replaced it. 
 
 ## Project Structure
 The project consists of two Python files: blackjack.py and main.py. Below is an overview of each file's purpose and the functionality it provides:
