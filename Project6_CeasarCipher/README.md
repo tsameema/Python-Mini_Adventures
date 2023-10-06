@@ -16,7 +16,7 @@ To use the CaesarCipher class, follow these steps:
 2. Create an instance of the CaesarCipher class.
 3. Call the generate_cipher method to perform encryption or decryption.
 
-            from caesar import CaesarCipher
+            from cipher import CaesarCipher
             cipher = CaesarCipher()
             cipher.generate_cipher()
 ## Methods
